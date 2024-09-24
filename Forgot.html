@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <fieldset>
-    <center>
-    <form action="./Forgot response.html" method="get">
-    <label for ="Username"><b>Username:</b></label>
-    <input type="text" Name="Usename" id="Username" placeholder="Enter Username" required><br>
-    <label for="otp"><b>Enter Otp:</b></label>
-    <input type="text" name="otp"id="otp" required><br>
-    <input type="submit" name="" value="submit">
-</form>
-    </center>
-</fieldset>
+        <center>
+            <form action="./Forgot response.html" method="get">
+                <label for="Username"><b>Username:</b></label>
+                <input type="text" Name="Usename" id="Username" autocomplete="off" pattern="[a-z0-9_]{4,9}"
+                    title="length should be min 4 and max 9" placeholder="Enter Username" required><br>
+                <label for="otp"><b>Enter Otp:</b></label>
+                <input type="text" name="otp" id="otp" required><br>
+                <input type="submit" name="" value="submit">
+            </form>
+        </center>
+    </fieldset>
 </body>
+
 </html>

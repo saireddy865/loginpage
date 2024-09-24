@@ -12,8 +12,8 @@
         <center>
             <form action="./loginSuccesful.html" method="get">
                 <label for="user"><b>Username :</b></label>
-                <input type="text" name="username" id="user" pattern="[a-z][-]{4-9}"
-                    title=" length should bemin 4 and max9 " placeholder="Enter user name" required><br>
+                <input type="text" name="username" id="user" autocomplete="off" pattern="[a-z0-9_]{4,9}"
+                    title="length should be min 4 and max 9" placeholder="Enter user name" required><br>
 
 
                 <label for="password"><b>Password :</b></label>
